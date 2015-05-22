@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contests</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agency --></label>
+        <name>Agency__c</name>
+        <relationshipLabel><!-- Contests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contests_Date --></label>
+        <name>Contests_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contests ID --></label>
+        <name>Contests_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contests_Rank --></label>
+        <name>Contests_Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contests_Total --></label>
+        <name>Contests_Total__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

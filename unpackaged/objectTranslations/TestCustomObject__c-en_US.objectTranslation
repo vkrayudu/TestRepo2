@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestCustomObject1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TestCustomObjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- TestCustomField --></label>
+        <name>TestCustomField__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- TestCustomRecordtype --></label>
+        <name>TestCustomRecordtype</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- TestApexSharingReason --></label>
+        <name>TestApexSharingReason</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Test --></errorMessage>
+        <name>TestValidationRule</name>
+    </validationRules>
+</CustomObjectTranslation>

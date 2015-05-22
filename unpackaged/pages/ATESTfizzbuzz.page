@@ -1,0 +1,4 @@
+<apex:page controller="ATESTFizzBuzz">
+<apex:dataList value="{!fizzBuzzList}" var="i">{!i}</apex:dataList>
+
+</apex:page>

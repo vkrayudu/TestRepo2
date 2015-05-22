@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Goal Hierarchy1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Goal Hierarchies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agency Owner Override --></label>
+        <name>Agency_Owner_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Owner --></label>
+        <name>Agency_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To (Override) --></label>
+        <name>Assigned_To_Override__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Assigned To (Override)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CL Only --></label>
+        <name>CL_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Std. Director --></label>
+        <name>Director__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Std. Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Goal Hierarchy ID --></label>
+        <name>Goal_Hierarchy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hierarchy Level --></label>
+        <name>Hierarchy_Level__c</name>
+        <picklistValues>
+            <masterLabel>AVP</masterLabel>
+            <translation><!-- AVP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District</masterLabel>
+            <translation><!-- District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Region</masterLabel>
+            <translation><!-- Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SM Combo</masterLabel>
+            <translation><!-- SM Combo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Manager</masterLabel>
+            <translation><!-- Sales Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation><!-- State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory</masterLabel>
+            <translation><!-- Territory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is_Assigned_To_Active --></label>
+        <name>Is_Assigned_To_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is_Assigned_To_Override_Active --></label>
+        <name>Is_Assigned_To_Override_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Code --></label>
+        <name>Org_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Admin (CL) --></label>
+        <name>Parent_Admin_CL__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Parent Admin (CL)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Admin --></label>
+        <name>Parent_Admin__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Parent Admin) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Geo (CL) --></label>
+        <name>Parent_Geo_CL__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Parent Geo (CL)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Geo --></label>
+        <name>Parent_Geo__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (Parent Geo) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Unique (Admin CL) --></label>
+        <name>Parent_Unique_Admin_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Unique (Admin) --></label>
+        <name>Parent_Unique_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Unique (Geo CL) --></label>
+        <name>Parent_Unique_Geo_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Unique (Geo) --></label>
+        <name>Parent_Unique_Geo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region Name --></label>
+        <name>Region_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run Update --></label>
+        <name>Run_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Org Code --></label>
+        <name>State_Org_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Org Description --></label>
+        <name>State_Org_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Code --></label>
+        <name>Territory_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique --></label>
+        <name>Unique__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>UserId__c</name>
+        <relationshipLabel><!-- Goal Hierarchies (User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- is Cancelled SM Combo --></label>
+        <name>is_Cancelled_SM_Combo__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- CL Sales Manager --></label>
+        <name>CL_Sales_Manager</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CL Sales Manager allocation to Territory --></label>
+        <name>CL_Sales_Manager_allocation_to_Territory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CL Territory --></label>
+        <name>CL_Territory</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

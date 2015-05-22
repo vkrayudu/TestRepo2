@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Claims</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Claims</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agency --></label>
+        <name>Agency__c</name>
+        <relationshipLabel><!-- Large YTD Claims --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category Code --></label>
+        <name>Category_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Number --></label>
+        <name>Claim_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Last Changed --></label>
+        <name>Date_Last_Changed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Reported --></label>
+        <name>Date_Reported__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Loss --></label>
+        <name>Date_of_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Declaration --></label>
+        <name>Declaration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policyholder --></label>
+        <name>Insured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loss Description --></label>
+        <name>Loss_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy Number --></label>
+        <name>Policy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reserve Status --></label>
+        <name>Reserve_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Loss Value --></label>
+        <name>Total_Loss_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Out Reserve --></label>
+        <name>Total_Out_Reserve__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Payments Made --></label>
+        <name>Total_Payments_Made__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weather --></label>
+        <name>Weather__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week Additional Payments --></label>
+        <name>Week_Additional_Payments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week Net Change --></label>
+        <name>Week_Net_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week Out Reserve Changes --></label>
+        <name>Week_Out_Reserve_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week Payments From Reserve --></label>
+        <name>Week_Payments_From_Reserve__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week_Reserve_Changes --></label>
+        <name>Week_Reserve_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Additional Payments --></label>
+        <name>YTD_Additional_Payments__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Net Change --></label>
+        <name>YTD_Net_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Out Reserve Changes --></label>
+        <name>YTD_Out_Reserve_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Payments From Reserve --></label>
+        <name>YTD_Payments_From_Reserve__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD_Reserve_Changes --></label>
+        <name>YTD_Reserve_Changes__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
